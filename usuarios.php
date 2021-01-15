@@ -1,3 +1,6 @@
+<?php
+include "./php/conexion.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,26 +56,35 @@
           </div>
         </div>
         <div class="card-body">
-          <form action="" class="row">
+            <?php
+            if(isset($_GET['error'])){
+            ?>
+            <div class="alert alert-danger">
+                <b>Error:</b><?php echo $_GET['error'];?>
+            </div>
+            <?php
+            }
+            ?>
+          <form action="./php/insertarUsuario.php" class="row" method="POST">
               <div class="col-4">
                   <label for="">Nombre</label>
-                  <input type="text" class="form-control" placeholder="Inserta tu nombre">
+                  <input type="text" class="form-control" placeholder="Inserta tu nombre" id="txtNombre" name="nom" required>
               </div>
               <div class="col-4">
                 <label for="">Apellido</label>
-                <input type="text" class="form-control" placeholder="Inserta tu apellido">
+                <input type="text" class="form-control" placeholder="Inserta tu apellido" name="ap" required>
             </div>
             <div class="col-4">
                 <label for="">Email</label>
-                <input type="email" class="form-control" placeholder="Inserta tu email">
+                <input type="email" class="form-control" placeholder="Inserta tu email" name="email" require>
             </div>
             <div class="col-4">
                 <label for="">Password</label>
-                <input type="password" class="form-control" placeholder="Inserta tu password">
+                <input type="password" class="form-control" placeholder="Inserta tu password" name="p1" require>
             </div>
             <div class="col-4">
                 <label for="">Confirma tu password</label>
-                <input type="password" class="form-control" placeholder="Confirma tu password">
+                <input type="password" class="form-control" placeholder="Confirma tu password" name="p2" require>
             </div>
             <div class="col-4 p-2">
                 <br>
