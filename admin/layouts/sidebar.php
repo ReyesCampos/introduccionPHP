@@ -1,19 +1,18 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="../../index3.html" class="brand-link">
-     
-      <span class="brand-text font-weight-light">Mi Tienda</span>
-    </a>
+      <img src="../img/logo.png" alt="" width=90% height=90% style="margin:5%;" >
+      
 
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="./dashboard/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="./img/users/<?php echo $userData['Imagen'];?>" 
+          class="img-circle elevation-2" style="width:40px;height:40px;" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block"><?php echo $userData['Nombre']." ".$userData['Ap'];?></a>
         </div>
       </div>
 
@@ -41,10 +40,26 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../widgets.html" class="nav-link">
-                    <i class="nav-icon fas fa-list"></i>
+                    <a href="./historietas.php" class="nav-link">
+                    <i class="nav-icon fas fa-book-open"></i>
+                    <p>
+                        Historietas
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./productos.php" class="nav-link">
+                    <i class="nav-icon fas fa-clipboard-list"></i>
                     <p>
                         Productos
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./php/salir.php" class="nav-link">
+                    <i class="nav-icon fas fa-sign-out-alt"></i>
+                    <p>
+                        Cerrar sesión
                     </p>
                     </a>
                 </li>

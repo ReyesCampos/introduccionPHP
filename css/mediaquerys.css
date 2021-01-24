@@ -1,0 +1,173 @@
+@media screen and (min-width: 360px){
+    header{
+        height: 50px;
+    }
+    #menu{
+        display: block;
+        height: 30px;
+    }
+    header > #logo > a > img, #menu > img{
+        height: 30px;
+    }
+    section#main > div#col > a > button{
+        margin-left: 10%;
+        width: 45%;
+        height: 30px;
+        border-radius: 30px;
+        font-size: 0.5em;
+    }
+    section#main > div#col > img{
+        width: 35%;
+        padding-top: 20%;
+    }
+    nav{
+        display: none;
+    }
+    section#main, section#inicio{
+        min-height: 300px;
+    }
+    section#main > div > h2{
+        font-size: 0.8em;
+    }
+    
+    section#estilo{
+        min-height: 250px;
+    }
+    h1, h2{
+        font-size: 1em;
+    }
+    section.estilo{
+        min-height: 600px;
+        margin-top: 10px;
+    }
+    section.estilo > div#contenedor{
+        height:170px;
+    }
+    section.estilo > div#contenedor > div#columnas > a{
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.8em;
+    }
+    .topnav {
+        min-height: 1rem;
+        padding-top: 0px;
+    }
+    .topnav a { 
+        font-size: 0.8em;
+    }
+      section#historietas > .topnav a {
+          margin-left: 1%;    
+    }
+      .topnav-centered a {
+        left: 0%;
+      }
+      footer{
+          padding: 0px;
+      }
+}
+@media screen and (min-width: 768px){
+    header{
+        height: 60px;
+    }
+    header > #logo > a > img, #menu > img{
+        height: 40px;
+        margin-top: 5px;
+    }
+    header > nav{
+        display: block;
+        font-size: 0.9rem;
+        width: 60%;
+        padding-right: 2%;
+    }
+    header nav > ul > li > input{
+        margin-top: -10px;
+    }
+    #menu{
+        display: none
+    }
+    section#main > div#col > a > button{
+        margin-left: 10%;
+        width: 45%;
+        height: 30px;
+        border-radius: 30px;
+        font-size: 1em;
+    }
+    section#main > div#col > img{
+        width: 35%;
+        padding-top: 10%;
+    }
+    section#main > div > h2{
+        font-size: 1.2em;
+    }
+    h1, h2{
+        font-size: 1.5em;
+    }
+    section.estilo{
+        min-height: 600px;
+        margin-top: 10px;
+    }
+    section.estilo > div#contenedor{
+        background-color: #f5f5f5;
+        height:320px;
+    }
+    section.estilo > div#contenedor > div#columnas > a{
+        font-size: 1em;
+    }
+    .topnav {
+        min-height: 1.5rem;
+        padding-top: 5px;
+    }
+    .topnav a { 
+        font-size: 1em;
+        margin-left: 0;
+    }
+}/*768*/
+@media screen and (min-width: 992px){
+    header > nav{
+        display: block;
+        font-size: 1.2rem;
+        width: 60%;
+        padding-right: 2%;
+    }
+    header nav > ul > li > input{
+        margin-top: -5px;
+    }
+    #menu{
+        display: none
+    }
+    section#main > div#col > a > button{
+        margin-left: 10%;
+        width: 45%;
+        height: 30px;
+        border-radius: 30px;
+        font-size: 1em;
+    }
+    section#main > div#col > img{
+        width: 35%;
+        padding-top: 10%;
+    }
+    section#main > div > h2{
+        font-size: 1.2em;
+    }
+    h1, h2{
+        font-size: 1.5em;
+    }
+    section.estilo{
+        min-height: 600px;
+        margin-top: 10px;
+    }
+    section.estilo > div#contenedor{
+        height: 390px;
+    }
+    section.estilo > div#contenedor > div#columnas > a{
+        font-size: 1em;
+    }
+    .topnav {
+        min-height: 1.5rem;
+        padding-top: 5px;
+    }
+    .topnav a { 
+        font-size: 1em;
+        margin-left: 0;
+    }
+}/*992*/

@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    padding-left: 2%; 
+    font-size: 2.5em;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 2%; 
+    font-size: 2.5em;
+}
+header{
+    position: sticky;
+    height: 70px;
+    width: 100%;
+    background-color:black;
+    top: 0px;
+}
+header > #logo{
+    padding-top: 5px;
+    float: left;
+    margin-left: 2%;
+    cursor: pointer;
+}
+header > nav{
+    font-size: 1.5rem;
+    float: right;
+    width: 40%;
+    padding-top: 25px;
+    padding-right: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+header nav > ul > li{
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+header nav > ul > li:last-child{
+    width:40%;
+}
+header nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.5s ease-in all;
+}
+header nav > ul > li > a:hover{
+    color: #CBE86B;
+}
+header nav > ul > li > input{
+    width: 100%;
+    height: 30px;
+    display: block;
+    font-size: .8em;
+    border-radius: 17px;
+    border: none;
+    text-align: center;
+}
+section#main{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 2%;
+}
+section#main > img{
+    width: 55%;
+    margin-left: 22.5%;
+    margin-top: 10px;
+}
+section#main > div > h2{
+    margin-left: 10%;
+    font-size: 2em;
+    color: white;
+}
+section#main > #col{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+section#main > div#col > a > button{
+    margin-left: 10%;
+    width: 25%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #eeeeee;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+section#main > div#col > a > button:hover{
+    background-color: #CBE86B;
+    transition: 0.2s ease-in all;
+    color: white;
+}
+section#main > div#col > img{
+    width: 35%;
+    padding-top: 2%;
+}
+section.estilo{
+    background-color: white;
+    width: 100%;
+    min-height: 871px;
+    float: left;
+    margin-top: 70px;
+}
+section.estilo > div#banner{
+    width: 96%;
+    margin-top: 2%;
+    margin-left: 2%;
+    align-items: center;
+}
+section.estilo > div#banner > img{
+    width: 100%;
+    height: 60%;
+}
+section.estilo > div#contenedor{
+    width: 96%;
+    background-color: #f5f5f5;
+    height: 900px;
+    margin-left: 2%;
+}
+section.estilo > div#contenedor > div#columnas{
+    float: left;
+    width: 22.5%;
+    height: auto;
+    margin-left: 2%;
+    text-align: center;
+    overflow-y: hidden;
+    background-color: transparent;
+    padding-top: 2%;
+}
+section.estilo > div#contenedor > div#columnas > a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+}
+section.estilo > div#contenedor > div#columnas > a > img{
+    width: 100%;
+}
+.topnav {
+    min-height: 3rem;
+    position: relative;
+    background-color: #bdbdbd;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+  } 
+.topnav a { 
+    align-items: center;
+    margin-left: 1rem;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+  } 
+.topnav a:hover {
+    background-color: #CBE86B;
+    color: white;
+  }
+.topnav-centered a {
+    position: relative;
+  }
+footer{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #bdbdbd;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+#menu{
+    display: none;
+    background-color: transparent;
+    float: right;
+}
